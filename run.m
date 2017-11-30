@@ -4,6 +4,8 @@
 clear
 clc
 
+addpath('lib')
+
 % load your features for images
 load('features.mat')
 
@@ -13,7 +15,7 @@ train_data = cell(1, 1);
 test_data = cell(1, 1);
 % split train and test sets
 for i=1:num_classes
-	class = googlenet_patch_features{i, 1};
+	class = features{i, 1};
 	train_indices = randperm(length(class), 100);
 	train_data{i, 1} = class(train_indices);
 	test_data{i, 1} = class(setdiff((1:length(class)), train_indices));
