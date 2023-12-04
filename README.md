@@ -6,4 +6,4 @@ This is an implementation of finding mid-level representations for still actions
 
 While applying association rule mining, Narine Manukyan's [Apriori implementation](https://www.mathworks.com/matlabcentral/fileexchange/42541-association-rules) is used.
 
-The implementation details and experiments are reported in [this paper](https://ozgeyalcinkaya.com/wp-content/uploads/2017/11/Mid-level-Action-Representation-with-Association-Rule-Mining-for-Still-Images.pdf).
+The implementation details and experiments are reported in [here](https://github.com/ozgyal/Mid-level-Discriminative-Action-Representation/blob/master/Mid-level-Action-Representation-with-Association-Rule-Mining-for-Still-Images.pdf).
